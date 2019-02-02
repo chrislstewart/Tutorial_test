@@ -1,0 +1,35 @@
+{
+    "logistic": [
+        "Trade Port", 
+        "Broadcast Center", 
+        "Orbital Refinery"
+    ], 
+    "tactical": [
+        "Gauss Defense Platform",
+        "Hangar Defense",
+        "Repair Platform",
+        "Phase Jump Inhibitor",
+        "Shield Generator",
+        "Novalith Cannon",
+        "Proximity Mine Field"
+    ], 
+    "capitals": [
+        "Kol Battleship",
+        "Sova Carrier",
+        "Akkan Battlecruiser",
+        "Dunov Battlecruiser",
+        "Marza Dreadnought"
+    ], 
+    "frigates": [
+        "Cobalt Light Frigate",
+        "Javelis LRM Frigate",
+        "Krosov Siege Frigate",
+        "Garda Flak Frigate",
+        "Percheron Light Carrier",
+        "Hoshiko Robotics Cruiser",
+        "Cielo Command Cruiser",
+        "Kodiak Heavy Cruiser",
+        "Raloz Heavy Constructor",
+        "Ogrov Torpedo Cruiser"
+    ]
+}

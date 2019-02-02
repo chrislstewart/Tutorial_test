@@ -1,0 +1,73 @@
+{   
+    "2 Players" : [
+        "Random - Small",
+        "The Void",
+        "Point Blank",
+        "Quickstrike",
+        "Close Encounters",
+        "Melting Point",
+        "Face Off",
+        "Cynosian Rift",
+        "Domination",
+        "Gaian Crescent",
+        "New Dawn",
+        "Celanus Core",
+        "Derelict",
+        "Agamemnon's Bounty",
+        "Storm Front"
+    ],
+    "3 Players" : [
+        "Balance of Power",
+        "Triad (Diplomacy)",
+        "Centrifuge"
+    ],
+    "4 Players" : [
+        "Random - Medium",
+        "Wrathful",
+        "Kronac's Cross",
+        "Pandemonium",
+        "Counter Spin",
+        "Fire and Ice",
+        "Devil's Cauldron",
+        "Backstab",
+        "Flash Point",
+        "Tempest",
+        "Gemini",
+        "Convergence",
+        "Double Cross",
+        "Doppelgangers",
+        "Secrets",
+        "Systems of War",
+        "Voruk's Labyrinth"
+    ],
+    "5 Players" : [
+        "Nemesis"
+    ],
+    "6 Players" : [
+        "Random - Medium Large",
+        "Razor's Edge",
+        "Desperation",
+        "Fulcrum",
+        "Blind Side",
+        "Foreign Invasion",
+        "Entanglement",
+        "Maelstrom",
+        "Gateway",
+        "Triumvirate",
+        "Ancient Gifts"
+    ],
+    "8 Players" : [
+        "Random - Large (Multi)",
+        "Random - Large (Single)",
+        "Grindstone",
+        "Twin Empires",
+        "Implosion",
+        "Whirlwind",
+        "Hyperion's Gates"
+    ],
+    "10 Players" : [
+        "Random - Huge (Multi)",
+        "Random - Huge (Single)",
+        "Areolian Sector"
+    ]
+}

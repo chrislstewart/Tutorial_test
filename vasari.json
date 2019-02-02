@@ -1,0 +1,35 @@
+{
+    "logistic": [
+        "Trade Port", 
+        "Media Hub", 
+        "Matter Processor"
+    ], 
+    "tactical": [
+        "Missile Platform", 
+        "Hangar Defense", 
+        "Regeneration Bay", 
+        "Phase Jump Inhibitor", 
+        "Nano Weapon Jammer", 
+        "Phase Stabilizer", 
+        "Kostura Cannon"
+    ], 
+    "capitals": [
+        "Kortul Devastator", 
+        "Skirantra Carrier", 
+        "Jarrasul Evacuator", 
+        "Antorak Marauder", 
+        "Vulkoras Desolator"
+    ], 
+    "frigates": [
+        "Ravastra Skirmisher", 
+        "Kanrak Assailant", 
+        "Karrastra Destructor", 
+        "Junsurak Sentinel", 
+        "Lasurak Transporter", 
+        "Stilakus Subverter", 
+        "Serevun Overseer", 
+        "Skarovas Enforcer", 
+        "Sivuskras Ruiner", 
+        "Orkulus Starbase"
+    ]
+}

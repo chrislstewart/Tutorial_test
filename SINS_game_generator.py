@@ -1,43 +1,49 @@
-import numpy as np
+from numpy.random import choice
+import json
 
-vasari = {}
+# Number of options for each item
+n_players = 6
+AI_diff = 'Hard'
+n_frig = 2
+n_cap = 2
+n_log = 1
+n_tac = 2
 
-vasari['frigates'] = [
-    'Ravastra Skirmisher',
-    'Kanrak Assailant',
-    'Karrastra Destructor',
-    'Junsurak Sentinel',
-    'Lasurak Transporter',
-    'Stilakus Subverter',
-    'Serevun Overseer',
-    'Skarovas Enforcer',
-    'Sivuskras Ruiner',
-    'Orkulus Starbase'
-]
+# Faction info files
+factions = {
+    'Advent' : 'advent.json',
+    'TEC' : 'tec.json',
+    'Vasari' : 'vasari.json'
+}
 
-vasari['capitals'] = [
-    'Kortul Devastator',
-    'Skirantra Carrier',
-    'Jarrasul Evacuator',
-    'Antorak Marauder',
-    'Vulkoras Desolator'
-]
+# Map & AI Difficulty
+with open("maps.json") as f:
+    maps = json.load(f)
+    size = str(n_players) + ' Players'
+    map_choice = choice(maps[size])
 
-vasari['logistics'] = [
-    'Trade Port',
-    'Media Hub',
-    'Matter Processor'
-]
+# Randomly select faction
+faction = (choice(list(factions.keys())))
 
-vasari['tactical'] = [
-    'Missile Platform',
-    'Hangar Defense',
-    'Regeneration Bay',
-    'Phase Jump Inhibitor',
-    'Nano Weapon Jammer',
-    'Phase Stabilizer',
-    'Kostura Cannon'
-]
+# Load selected faction's ships and structures
+with open(factions[faction]) as f:
+    ships_structs = json.load(f)
+
+# Randomly select ships and structures
+frigates = choice(ships_structs['frigates'], n_frig, replace=False)
+capitals = choice(ships_structs['capitals'], n_cap, replace=False)
+logistic = choice(ships_structs['logistic'], n_log, replace=False)
+tactical = choice(ships_structs['tactical'], n_tac, replace=False)
+
+# Print selections to terminal
+print('Map: {}'.format(map_choice))
+print('Faction: {}'.format(faction))
+print('Frigates: ' + ', '.join(frigates))
+print('Capital Ships: ' + ', '.join(capitals))
+print('Logistic Structures: ' + ', '.join(logistic))
+print('Tactical Structures: ' + ', '.join(tactical))
+
+
 
 
 

@@ -1,0 +1,34 @@
+{
+    "logistic": [
+        "Trade Port", 
+        "Temple of Communion", 
+        "Refinery Focus"
+    ], 
+    "tactical": [
+        "Beam Defense Platform",
+        "Hangar Defense",
+        "Repair Platform",
+        "Phase Jump Inhibitor",
+        "Antimatter Recharger",
+        "Deliverance Engine"
+    ], 
+    "capitals": [
+        "Radiance Battleship", 
+        "Revelation Battlecruiser", 
+        "Progenitor Mothership", 
+        "Halcyon Carrier", 
+        "Rapture Battlecruiser"
+    ], 
+    "frigates": [
+        "Disciple Vessel",
+        "Illuminator Vessel",
+        "Purge Vessel",
+        "Defense Vessel",
+        "Aeria Drone Host",
+        "Iconus Guardian",
+        "Domina Subjugator",
+        "Destra Crusader",
+        "Talion Savior",
+        "Solanus Adjudicator"
+    ]
+}
